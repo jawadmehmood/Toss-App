@@ -8,6 +8,7 @@ h1{
     text-align: center;
     background-color: #000000;
     color: #a9a9a9;
+    text-transform: uppercase;
 }
 
 .select{
@@ -30,6 +31,7 @@ button{
     padding: 5px;
     border-radius: 5px;
     width: 100px;
+    text-transform: uppercase;
 }
 
 button:hover{
