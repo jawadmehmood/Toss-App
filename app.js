@@ -1,8 +1,8 @@
-var result = document.querySelector('#result');
-var image = document.querySelector('#image');
+let result = document.querySelector('#result');
+let image = document.querySelector('#image');
 
 function toss(choice){
-    var tossResult = Math.ceil(Math.random()*2);
+    let tossResult = Math.ceil(Math.random()*2);
     if(tossResult === 1 && choice === 'head'){
         result.innerHTML = 'You won the toss';
         image.src ='./assets/head.jpg';
